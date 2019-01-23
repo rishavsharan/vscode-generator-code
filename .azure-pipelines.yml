@@ -1,5 +1,4 @@
-pool:
-  vmImage: 'ubuntu-16.04'
+pool: AgentDemo
 
 steps:
 - task: NodeTool@0
