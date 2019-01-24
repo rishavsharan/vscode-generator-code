@@ -47,6 +47,10 @@ describe('test code generator', function () {
             engineVersion = version;
         });
     });
+    
+    it(`Resigned to failure`, () => {
+        assert.ok(false);
+    });
 
     it('theme import', function (done) {
         helpers.run(path.join(__dirname, '../generators/app'))
