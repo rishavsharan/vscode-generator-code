@@ -49,6 +49,30 @@ describe('test code generator', function () {
     });
     
     it(`Resigned to failure`, () => {
+        assert.ok(true);
+    });
+    
+        it(`Resigned to failure`, () => {
+        assert.ok(false);
+    });
+    
+        it(`Resigned to failure`, () => {
+        assert.ok(true);
+    });
+    
+        it(`Resigned to true`, () => {
+        assert.ok(true);
+    });
+    
+        it(`Resigned to failure`, () => {
+        assert.ok(false);
+    });
+    
+        it(`Resigned to true`, () => {
+        assert.ok(true);
+    });
+    
+        it(`Resigned to true3`, () => {
         assert.ok(false);
     });
 
