@@ -1,4 +1,4 @@
-pool: AgentDemo
+pool: Agent0Config
 
 steps:
 - task: NodeTool@0
