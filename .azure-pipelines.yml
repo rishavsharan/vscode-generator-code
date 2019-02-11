@@ -1,11 +1,13 @@
 pool: Agent0Config
 
+stage:Build
 steps:
 - task: NodeTool@0
   inputs:
     versionSpec: '8.x'
   displayName: 'Install Node.js 8.x'
 
+stage:test
 - script: |
     npm ci
   displayName: 'Install and test'
